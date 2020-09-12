@@ -4,9 +4,6 @@ import Header from '../components/Header'
 import Card from '../components/Card'
 import {useSelector} from 'react-redux'
 
-
-
-
 export default function HomeScreen({navigation}) {
   const scrollY = new Animated.Value(0)
   const diffClamp = Animated.diffClamp(scrollY,0,45)
